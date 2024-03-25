@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/CSS/Styles.css">
+</head>
+<body>
+    <h1>Formulario de Empresa </h1>
+    <div class="ring">
+        <i style="--clr:#00a6ff;"></i>
+        <i style="--clr:#ff0057;"></i>
+        <i style="--clr:#4eee2e;"></i>
+        <form method="get" action="{{url_for('datos_usuario') }}">
+            <label for="usuario">  </label>
+            <input class="button1"  type="text" name="usuario" placeholder="Usuario">
+            <br><br>
+
+            <label for="edad"></label>
+            <input class="button1"   type="text" name="edad" placeholder="Edad">
+            <br><br>
+
+            <label for="Password"></label>
+            <input class="button1"  type="password" name="Password" placeholder="Password">
+            <br><br>
+
+            <label for="Email"></label>
+            <input class="button1"  type="text" name="Email" placeholder="Email">
+            <br><br>
+
+            <label fro="Empresa"></label>
+            <input class="button1"  type="text" name="Empresa" placeholder="Empresa">
+            <br><br>
+            <input class="button2" type="submit" value="Enviar datos">
+        </form> 
+    </div>
+    
+    
+</body>
+</html>
